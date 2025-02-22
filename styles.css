@@ -49,7 +49,11 @@ h1 {
 }
 
 .card:hover {
-    transform: translateY(-0.3125rem);
+    transform: translateY(-1rem);
+}
+
+.skills-set:hover{
+    transform: translateY(0.5rem);
 }
 
 h2 {
@@ -79,6 +83,29 @@ h2 {
     margin-bottom: 0.9375rem;
 }
 
+.job li{
+    padding-left: 6rem;
+    list-style-position: inside;
+}
+
+/* logo */
+.job-image {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+}
+.job-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+}
+.job-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*  */
 .date {
     font-style: italic;
     color: #666;
