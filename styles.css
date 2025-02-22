@@ -6,16 +6,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #ff00e6, #000000); /* Light gray gradient */
+    background: linear-gradient(135deg, #ff00e6, #000000);
     color: #000000;
     line-height: 1.6;
-    font-size: 16px; /* Base font size for scaling */
+    font-size: 16px; 
 }
 
 .container {
-    max-width: 1400px; /* Increased max-width for large screens */
-    width: 90%; /* Fluid width for all sizes */
-    margin: 5vh auto; /* Vertical spacing scales with viewport height */
+    max-width: 1400px; 
+    width: 90%; 
+    margin: 5vh auto; 
     padding: 0 1rem;
 }
 
@@ -26,8 +26,7 @@ header {
     background: linear-gradient(135deg, #ff00d9, #000000);
     color: white;
     border-radius: 0.625rem 0.625rem 0 0;
-    transition: transform 1s ease-in-out; /* Smooth transition */
-
+    transition: transform 3s ease-in-out; 
 }
 
 header:hover {
@@ -58,11 +57,7 @@ h1 {
 }
 
 .card:hover {
-    transform: translateY(-1rem);
-}
-
-.skills-set:hover{
-    transform: translateY(0.5rem);
+    transform: scale(1.2); 
 }
 
 h2 {
@@ -81,7 +76,7 @@ h2 {
 
 .skills-list li {
     background: #c400da;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 0.3125rem 0.9375rem;
     border-radius: 1.25rem;
     font-size: clamp(0.75rem, 1.5vw, 1rem); /* Scales up to 1rem */
@@ -126,6 +121,7 @@ footer {
     text-align: center;
     padding: 1.25rem;
     font-size: clamp(0.75rem, 1.5vw, 1.2rem); /* Scales up to 1.2rem */
+    color: white; /* Change text color to white */
 }
 
 footer a {
