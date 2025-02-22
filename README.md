@@ -1,1 +1,1 @@
-# [Resume](https://lii4ee.github.io/Resume/)
+# [Click here to check: Resume](https://lii4ee.github.io/Resume/)
